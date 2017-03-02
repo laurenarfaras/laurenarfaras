@@ -3722,6 +3722,7 @@
 		padding: 3em 3em 3em 3em ;
 		width: calc(100% + 2em);
 		margin: 0 0 3em -2em;
+		border-top: 1px solid #abc0b5;
 	}
 
 		#footer > * {
