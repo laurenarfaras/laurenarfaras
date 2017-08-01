@@ -3100,7 +3100,8 @@
 /* Header */
 
 	#header {
-		padding: 5em 5em 1em 5em ;
+		/*padding: 5em 5em 1em 5em ;*/
+		padding: 2em 1em 1em 1em !important;
 		text-align: center;
 	}
 
@@ -3114,7 +3115,8 @@
 		}
 
 		#header.alt {
-			padding: 7em 5em 4em 5em ;
+			/*padding: 7em 5em 4em 5em ;*/
+			padding: 1em 1em 1em 1em;
 		}
 
 			#header.alt h1 {
@@ -3143,13 +3145,13 @@
 				-ms-transition-delay: 0s;
 				transition-delay: 0s;
 				display: block;
-				margin: 0 0 1.5em 0;
+				margin: 0 0 0 0;
 			}
 
 				#header.alt .logo img {
 					display: block;
 					margin: 0 auto;
-					max-width: 75%;
+					max-width: 25%;
 				}
 
 		@media screen and (max-width: 1280px) {
@@ -3248,7 +3250,7 @@
 		position: absolute;
 		width: 64em;
 		max-width: calc(100% - 4em);
-		padding: 1em;
+		padding: 0em 1em 1em 1em;
 		background-color: rgba(255, 255, 255, 0.5);
 		border-bottom: 1px solid #212721;
 		border-top-left-radius: 0.25em;
