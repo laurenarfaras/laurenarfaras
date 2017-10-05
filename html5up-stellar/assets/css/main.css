@@ -3824,3 +3824,10 @@
 	.card-body {
 		text-align: left !important;
 	}
+	.card-title {
+		text-decoration: none;
+	}
+	.card-header {
+		border-bottom: 1px solid #8cc9f0;
+		background-color: white;
+	}
